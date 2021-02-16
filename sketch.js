@@ -69,6 +69,9 @@ function draw() {
     //scoring
     count = count + Math.round(getFrameRate()/60);
         
+     camera.position.x=width/2
+     camera.position.y=trex.y
+     
     if (ground.x < 0){
       ground.x = ground.width/2;
     }
